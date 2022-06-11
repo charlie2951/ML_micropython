@@ -1,0 +1,3 @@
+In Thonny, paste Linear/Logistic regression code predent inside pylab folder. Save the code as same name as it is inside a folder in RP2040. The folder name must be "pylab".
+Don't forget to place the _init_.py file inside that folder.
+Now you can run test files by calling the limrary "from pylab import logistic_regression as lm" in this way.
