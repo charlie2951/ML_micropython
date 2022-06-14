@@ -20,7 +20,7 @@ reduce with iteration. No of iteration can be varied to minimize the loss i.e. M
 
 ## Logistic Regression ##
 ## Functions:
-- *w,b,x= lm.logistic_regressior(xtrain,ytrain, learning_rate,epoch)*
+- *w,b,loss,ypred = lm.logistic_regressior(xtrain,ytrain, learning_rate,epoch)*
 - learning_rate typical value 0.1
 - epoch : no of iteration depending upon dataset it may vary. See loss during training to decide best no of epoch
 - *ypred=lm.evaluate_pred(w,x,b)*
